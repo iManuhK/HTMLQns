@@ -1,10 +1,33 @@
 body {
     background-color: darkseagreen;
+    margin: auto;
 }
 table {
-    border-style: solid;
-
+    table-layout: auto;
 }
-td{
+
+th {
     border-style: solid;
+}
+td {
+    border-style: solid;
+}
+.Md_Navigation ul{
+    list-style: none;
+    float: left;
+    width: 100%;
+    background-color: cadetblue;
+    text-align: center;
+}
+.Md_Navigation ul li {
+    display: inline;
+    font-size: large;
+}
+.Md_Main-Body {
+    height: 95%;
+}
+.Md_Footer {
+    background: fixed;
+    background-color: cadetblue;
+    padding: auto;
 }
